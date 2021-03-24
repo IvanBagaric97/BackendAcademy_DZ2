@@ -1,0 +1,26 @@
+# broj unutar viticastih zagrada oznacava o kojem tipu pitanja se radi
+# 1 - pitanje koje ima samo jedan tocan odgovor
+# 2 - pitanje koje ima vise tocnih odgovora
+# 3 - pitanje na koje korisnik mora sam unijeti odgovor
+
+# format pitanja u kojem je tocan samo jedan odgovor
+Koliko kontinenata postoji? {1}: 6, 7, 8, 9  = 7
+
+# format pitanja u kojem je tocno vise odgovora
+Koje boje su najbolje? {2}: plava, crvena, crna, roza = plava, crvena
+
+# format pitanja u kojem korisnik mora sam unijeti odgovor
+# tocnost korisnikovog odgovora ne smije ovisiti o
+# koristenju malih i velikih slova ,
+# odnosno odgovori `jedan 'i `jEdAN ' moraju biti jednaki
+Kako se zovem? {3}:= Ivan
+
+Koliko kontinenata postoji? {1}: 6, 7, 8, 9  = 7
+Glavni grad Hrvatske? {1}: Zagreb, Split, Varaždin, Vinkovci  = Zagreb
+Broj dana u tjednu? {1}: 6, 7, 8, 9  = 7
+
+Koje boje su najbolje? {2}: plava, crvena, crna, roza = plava, crvena
+Omiljni predmeti na FER-u? {2}: OOP, PPJ, TZK, DIGLOG = OOP, DIGLOG
+Koje boje su najgore? {2}: plava, crvena, crna, roza = crna, roza
+
+Kako se zoveš? {3}:= Nez
